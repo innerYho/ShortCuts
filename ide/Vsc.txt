@@ -1,0 +1,27 @@
+#Many people say that VSC that's not a IDE but it supplies the same functionalities XD 
+
+**************************Commands VSC Windows**************************
+
+ctrl + shift + p : shortcuts
+
+ctrl + shift + L  : Select multiple linea sin importar el orden
+
+ctrl + space : autoComplete whith IntelliSense suggestions
+
+ctrl + Shift + K : Kill line
+
+ctrl + }  : coomenting line
+
+Shift + Alt + UpArrow or DownArrow : Add cursor to below line
+
+Shift + Alt + F : Formatting
+
+
+**************************Commands VSC Linux**************************
+ctrl + / or ctrl + shift + 7   ; coomenting line
+
+
+**************************Commands VSC React**************************
++++Simple React snippets+++++
+usf : Create useState   (when you finish the name state press "tab" for camelCase in the set state )
+
