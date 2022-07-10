@@ -1,0 +1,38 @@
+Cómo Agregar Una Clave SSH a GITHUB
+take from: 
+https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+https://www.youtube.com/watch?v=g2eVYhOmW3k
+
+
+you would search if your computer is "Legacy" or "UEFI"
+in win 
+    MSIN or system information
+        and looking for BIOS mode
+
+
+        if your PC is UEFI
+            go to C:\Users\"nameUser"\.shh
+            open Terminal and paste
+                ssh-keygen -t ed25519 -C "your_email@example.com"
+                    eg: ssh-keygen -t ed25519 -C "yomorales5@misena.edu.co"
+
+        if your PC is Lagacy
+             go to C:\Users\"nameUser"\.shh
+            open Terminal and paste
+                ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+    when de SSH is generated put
+        cat "nameSSHKey".pub  whit the name that you give it
+            eg: pcOfficeGitKey.pub
+
+        copy all the key and go to
+            https://github.com/settings/keys
+            
+            New SSH key
+                Paste the code and wait for the (git modal authentication)
+                    introduce your github password
+
+that's all folks!!
+
+    
