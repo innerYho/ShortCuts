@@ -16,7 +16,7 @@ Shift + Alt + UpArrow or DownArrow : Add cursor to below line
 
 Shift + Alt + F : Formatting
 
-copy & paste multiple line with different quantity of words
+Copy & paste multiple line with different quantity of words
 Alt + Ctrl + DownArrow :for show multiple line selector
 Shift + Fn + fin for select info in all lines
 
