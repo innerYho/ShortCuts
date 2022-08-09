@@ -5,8 +5,8 @@
     npm uninstall 'npmPackage'
 
 #force install deprecated package
-    npm i 'npmPackage' --legacy-deeps
-    npm i 'npmPackage' --legacy-peer-deeps
-    eg: npm i react-html-table-to-excel --legacy-deeps
+    npm i 'npmPackage' --legacy-deps
+    npm i 'npmPackage' --legacy-peer-deps
+    eg: npm i react-html-table-to-excel --legacy-deps
 
 
