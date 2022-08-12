@@ -1,0 +1,28 @@
+Install Vim
+
+In terminal Win
+winget install Neovim.Neovim
+
+open in gitBash
+nvim
+
+Para salir
+esc esc  :q enter
+
+Para forzar la salida de un archivo
+esc esc  :q! enter
+
+
+abrir archivo
+go to the folder
+open a terminal
+write name file.  eg: nvim index.js
+
+
+j = down 
+k = up  
+l = right
+h = left 
+
+w = jump the cursor to the next world or Object 
+b = jump the cursor before world or Object that you are  
