@@ -1,0 +1,6 @@
+
+
+# create user in mysql phpMyAdmin  //ok in laragon
+CREATE USER 'dev'@'localhost' IDENTIFIED WITH mysql_native_password BY 'D3v.Us3r';
+GRANT ALL PRIVILEGES ON *.* TO 'dev'@'localhost' WITH GRANT OPTION;
+ALTER USER 'dev'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
