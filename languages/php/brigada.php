@@ -1,8 +1,10 @@
+<?php
+//consulta brigada 22 08 18
 $req_brigada = mysqli_query($conexion, "SELECT COUNT(*) brigada FROM brigada2208 WHERE bri_cc_usu = '$cc'");
 while ($consultaBri = mysqli_fetch_array($req_brigada)) {
-$res_brigada = $consultaBri['brigada'];
+    $res_brigada = $consultaBri['brigada'];
 }
-
+?>
 
 <!-- modalBrigada -->
 <form action="dashboard.php" method="post">
@@ -130,7 +132,7 @@ if (isset($_POST['btn_briga'])) {
     $enfermeriaTxt = $_POST['enfermeriaTxt'];
 
     include("abrir_conexion.php");
-    if ($interesado === '0') {
+    if ($interesado === 'No') {
         $createNoBrigada = ("INSERT INTO brigada2208
                 (bri_cc_usu,
                 bri_nombre,
@@ -219,7 +221,7 @@ VALUES
 
 
 CREATE TABLE `brigada2208` (
-`bri_id` int NOT NULL,
+`bri_id` int primary key auto_increment NOT NULL,
 `bri_cc_usu` bigint NOT NULL,
 `bri_nombre` varchar(60) DEFAULT NULL,
 `bri_interesado` varchar(2) DEFAULT NULL,
