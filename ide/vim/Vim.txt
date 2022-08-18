@@ -6,19 +6,18 @@ winget install Neovim.Neovim
 open in gitBash
 nvim
 
+abrir archivo
+go to the folder
+open a terminal
+write name file.  eg: nvim index.js
+
 Para salir
 esc esc  :q enter
 
 Para forzar la salida de un archivo
 esc esc  :q! enter
 
-
-abrir archivo
-go to the folder
-open a terminal
-write name file.  eg: nvim index.js
-
-
+#Move
 j = down 
 k = up  
 l = right
@@ -26,3 +25,39 @@ h = left
 
 w = jump the cursor to the next world or Object 
 b = jump the cursor before world or Object that you are  
+
+w + number : move the cursor n[number] after the initial potition 
+b + number : move the cursor n[number] before the initial potition 
+
+#Insert mode 
+    a = insert mode (create content after the cursor)
+    Shift + A = insert mode (create content after the word)
+    i = insert mode (create content before the cursor)
+    esc esc = go out to insert mode
+
+#Delete 
+    x = delete character in normal mode
+    dw = delete word
+    d + $ = delete all the line (no works for me)
+    d + w or d + e = delete all the content after the cursor in the line
+    d + b = delete all the content before the cursor in the line
+#Save
+    in normal mode 
+    :w 
+#save & go out to the file
+    :wq
+
+redirect to other file 
+g + f : the cursor in the word that is required
+    eg: const {ayuda} = require('./helper.js')
+
+ctrl + o : go back to the file index 
+    the cursor in the module that is exported
+        eg: module.exports.ayuda = () => {
+
+ctrl + i : go to the file 'helper' when the file is in the buffer (memory)       
+
+#undo & redo  
+u : undo (Deshacer)
+ctrl + r : redo (rehacer el Deshacer XD)
+
