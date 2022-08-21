@@ -1,0 +1,35 @@
+Pasive search
+
+in browser
+https://www.exploit-db.com/google-hacking-database
+
+site:[nomsiteweb.com] fichero pdf
+    eg: site:udemy.com fichero pdf
+
+filter type of file
+    eg: site:udemy.com filetype:pdf
+
+search exact result of chat organizations
+    "index of" / "chat/logs"
+    "index of" / "chat/logs" site:udemy.com
+
+filetype:sql = ext:sql
+
+#Volcado de bds
+filetype:sql "MySQL dump"
+#contain that words
+filetype:sql "MySQL dump" (pass|password|passwd|pwd)
+
+#Search this patern id values
+inurl:index.php?id=
+inurl:index.php?id= site:udemy.com
+inurl:https://trello.com AND intext:@gmail.com AND intext:password
+s3 site:amazonaws.com filetype.xls password
+intext:"@gmail.com" intext:"password" inurl:/files/ ext:txt
+intext:"@udemy.com" intext:"password" inurl:/files/ ext:txt
+inurl:index.php?id='or'1'=='1' -- #posible change the password
+
+site:gov filetype:pdf sllintitle:restricted
+
+google hacking database # in browser
+
