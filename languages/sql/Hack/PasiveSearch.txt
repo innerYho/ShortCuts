@@ -33,3 +33,15 @@ site:gov filetype:pdf sllintitle:restricted
 
 google hacking database # in browser
 
+
+
+
+Shodan
+Shodan is a search engine that lets users search for various types of servers (webcams, routers, servers, etc.)
+ search engine of service banners, which are metadata that the server sends back to the client.
+https://www.shodan.io/
+git : aweson-shodan-queries  : consults to do in Shodan
+
+ftp anonimous login ok country:"US" port:"21"
+
+
