@@ -1,0 +1,11 @@
+First of all the Reg Exp needed is,
+/^(?!\s)[A-Za-z0-9\s]+$/ OR /^(?!\s)[A-Z0-9\s]+$/i
+
+Explanation:
+1). ^ : expects the pattern at the beginning.
+2). $ : expects pattern at the end.
+3). \s : matches a space.
+4). ?! : negation.(in the above pattern it indicates that the first character cannot be a space, i.e; \s)
+5). [] : matches a single character.
+6). + : matches one or more.
+7). i : case-insensitivity flag.
