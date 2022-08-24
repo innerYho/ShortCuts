@@ -1,0 +1,53 @@
+import Swal from "sweetalert2";
+
+//  is possible stop the toast timer
+const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+      toast.addEventListener('mouseenter', Swal.stopTimer)
+      toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+  })
+
+ Toast.fire({
+        icon: 'error',
+        title: 'Campo id cliente es requerido'
+      })
+
+
+
+      ++++++++++++++++++++
+  const [numFieldsRequired, setNumFieldsRequired] = useState(false);
+
+  const funcTemp = async (numFieldsRequired) => {
+    if (id_cli === '') {
+      // <Toast icon={'error'} title={'Campo id cliente es requerido'} />
+      Toast.fire({
+        icon: 'error',
+        title: 'Campo id cliente es requerido'
+      })
+      // resFunTemp = false
+    } else if (cel_uno === '') {
+      // <Toast icon={'error'} title={'Campo celular 1 es requerido'} />
+      Toast.fire({
+        icon: 'error',
+        title: 'Campo celular 1 es requerido'
+      })
+      // Swal.fire({ position: 'top-end', icon: 'error', title: 'Campo id cliente es requerido' });
+      // resFunTemp = false
+    } else {
+      setNumFieldsRequired(true);
+      // resFunTemp = true
+    }
+    return numFieldsRequired
+  }
+
+      const funcTemp2 = async () => {
+    let resFunTemp = false
+    let resFunTemp1 = await funcTemp(resFunTemp)
+    console.log(resFunTemp1)
+  }
