@@ -1,0 +1,5 @@
+
+#delete and remove package
+sudo apt autoremove --purge snapd
+sudo snap remove --purge <package_name>
+
