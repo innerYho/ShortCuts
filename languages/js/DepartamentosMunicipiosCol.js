@@ -27,6 +27,7 @@ exports.departamentos = [
   { city: 'Argelia', depart: 'Antioquia' },
   { city: 'Armenia mantequilla', depart: 'Antioquia' },
   { city: 'Barbosa', depart: 'Antioquia' },
+  { city: 'Belén', depart: 'Antioquia' },
   { city: 'Bello', depart: 'Antioquia' },
   { city: 'Belmira', depart: 'Antioquia' },
   { city: 'Betania', depart: 'Antioquia' },
