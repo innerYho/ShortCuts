@@ -1,0 +1,4 @@
+https://tauri.app/v1/guides/getting-started/prerequisites/#setting-up-windows
+npx create-tauri-app
+
+extension: tauri-analyzer 
