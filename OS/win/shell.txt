@@ -1,0 +1,7 @@
+//list all the active proccess 
+    netstat -ano 
+//search PID (proccess id)
+    netstat -ano | findstr :5000
+
+//Kill the proccess by PID
+    taskkill /f /pid 3600
