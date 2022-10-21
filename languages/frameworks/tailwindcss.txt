@@ -1,0 +1,13 @@
+//uppercase 
+     <div className="col-span-6">
+            <label>Nombre Agente</label>
+            <input
+              type="text"
+              className="input input-bordered w-full capitalize md:uppercase"
+              disabled={agenteBuscado.length > 0 ? true : false}
+              value={nombreAgente}
+              onChange={(e) => setnombreAgente(e.target.value)}
+              placeholder="Nombre Agente"
+              required
+            />
+          </div>
