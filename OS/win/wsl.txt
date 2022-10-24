@@ -30,3 +30,5 @@ cd D:\
     #search where is instaled wsl
 wsl --list --all
 
+    #stop linux distro
+wsl --shutdown

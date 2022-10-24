@@ -1,0 +1,22 @@
+
+extention: rust-analizer
+
+    // copile code
+rustc main.rs
+
+    // run app
+./main
+
+    // in command prompt to run app
+main.exe
+
+
+        cargo
+    #copile and run app
+cargo run
+
+
+        variable
+let x = 45  //inmutable variable
+let mut y = 45  //mutable variable
+y = 56
