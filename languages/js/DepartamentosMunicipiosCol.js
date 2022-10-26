@@ -234,6 +234,7 @@ exports.departamentos = [
   { city: 'Juan arias', depart: 'Bolívar' },
   { city: 'La boquilla', depart: 'Bolívar' },
   { city: 'Loma de arena', depart: 'Bolívar' },
+  { city: 'Malagana', depart: 'Bolívar' },
   { city: 'Magangue', depart: 'Bolívar' },
   { city: 'Mahates', depart: 'Bolívar' },
   { city: 'Margarita', depart: 'Bolívar' },
