@@ -6,6 +6,8 @@ import ReactPaginate from "react-paginate";
 export default function Tbl({ data, idTable }) {
     const [pageNumber, setPageNumber] = useState(0);
     const dataPerPage = 24;
+    const pagesVisited = pageNumber * dataPerPage;
+
     const fch = (date) => {
         return moment(date).format("yyyy-MM-DD")
     }
@@ -35,7 +37,7 @@ export default function Tbl({ data, idTable }) {
                                 .map((item, index) => (
                                     <tr className="text-center" key={index}>
                                         <td>{item.id}</td>
-                                        <td>{item.id}</td>
+                                        <td>{item.name}</td>
                                         <td>{fch(item.date)}</td>
                                     </tr>
                                 )
