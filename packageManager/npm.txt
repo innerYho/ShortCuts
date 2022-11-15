@@ -10,3 +10,20 @@
     eg: npm i react-html-table-to-excel --legacy-deps
 
 
+npm i -g typescript
+
+tsc --version
+
+npm i -g nodemon
+
+nodemon --version
+
+npm init --y
+
+Create file config ts 
+tsc -- init
+
+Transpilar codigo a js para ejecutarlo
+tsc
+
+

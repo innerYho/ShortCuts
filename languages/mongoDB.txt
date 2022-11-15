@@ -1,0 +1,33 @@
+
+show dbs
+
+use midudb
+
+db.createCollection('posts')
+
+db.photos.find()
+db.photos.find({user: '@midudev'})
+
+db.photos.insert({
+    id:2,
+    name: 'Pedazo de foto midu!',
+    img: 'https://instagram.com/...',
+    likes: [{jelowing: 1, camila: 1}],
+    user: '@midudev'
+})
+    //formato con valores diferentes a los establecidos anteriormente
+db.photos.insert({
+    name: 'Pedazo de foto jelowing!',
+    img: 'https://instagram.com/...',
+    likes: ['@jelowing', '@ari', '@camila'],
+    user: '@jelowing'
+})
+
+db.photos.update({user: '@midudev'}, {$set: {name: 'Es otra foto'}})
+
+db.photos.findAndModify({query:{user: '@midudev'}, 
+update: {$set:{name: 'Es otra foto'}}, upsert:true
+})
+
+Mongose tuto midudev
+https://www.youtube.com/watch?v=vhUw7GkRHdk
