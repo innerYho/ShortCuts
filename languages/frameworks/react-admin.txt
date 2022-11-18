@@ -1,0 +1,8 @@
+
+
+npm create vite@latest
+    # npm 7+
+    npm create vite@latest my-vue-app
+
+
+npm i react-admin ra-data-json-server
