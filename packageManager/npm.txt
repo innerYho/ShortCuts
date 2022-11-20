@@ -27,3 +27,10 @@ Transpilar codigo a js para ejecutarlo
 tsc
 
 
+
+    TailWindCSS
+
+npx create-next-app next_tailwind_amazona
+
+npm install -D tailwindcss
+npx tailwindcss init

@@ -1,8 +1,29 @@
+//extensiones
+
 Material icon Theme: all icons for extension documents in vsc
+vscode-icons: that is the same!!
+
 TypeScript Importer: help in imports.
+
+    Prettier
+    Preferences: Open Settings(JSON)
+
+.vccode/settings.json
+{
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.formatOnSave": true,
+"prettier.singleQuote": true,
+"editor.bracketPairColorization.enabled": true
+}
+
+Single Quote: js with single quote
+React with doble quote
 
 Eslint: debuging and report errors
 Simple React snippets: ES7
 Rest Client: req http like a Postman
 
 Rust-analyzer: Rust library
+
+JavaScript (ES6) code snippets
+ES7+ React/Redux/React-Native snippets
