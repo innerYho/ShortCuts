@@ -6,3 +6,4 @@ sudo snap remove --purge <package_name>
 #Kill the proccess by PID
     fuser 5000/tcp
     fuser -k 5000/tcp
+    
