@@ -1,3 +1,42 @@
 
 
+    #show the actual images
+docker images
+
+    # pull images
+docker pull node
+docker pull node:18   //specific version
+
+    #delete images
+docker images rm node:18  //image
+docker images rm (stoic_stone)  //name
+
+    #Create container
+docker create mongo  ||  docker container create mongo
+    docker create --name monguito mongo
+
+        #ports
+            machine port : docker port
+    docker create -p27017:27017 --name monguito mongo
+    docker run
+    docker run -d mongo //run with logs follow (detached mode)
+        docker run --name monguito -d mongo
+                                                    env
+        docker create -pp27017:27017 --name monguito -e MONGO_INITDB_ROOT_USERNAME=nico -e MONGO_INITDB_ROOT_PASSWORD=password mongo
+        
+
+    #run container
+docker start (id****12Number) ||  docker start monguito
+
+    #docker container status
+docker ps
+docker ps -a  //show all the container active & inactive
+
+    #docker stop
+docker stop (id****12Number)
+
+    #Logs
+docker logs monguito
+docker logs --follow monguito 
+
 docker volume
