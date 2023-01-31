@@ -1,3 +1,10 @@
+download exe
+https://www.rust-lang.org/es/learn/get-started
+rustc --version
+cargo --version
+
+    #create project
+cargo new --bin reverse-proxy-http
 
 extention: rust-analizer
 
