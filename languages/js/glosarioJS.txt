@@ -1,0 +1,41 @@
+Glosario
+
+EcmaScript Modules o ESModules
+Los EcmaScript Modules es la forma nativa que tiene JavaScript para importar y exportar variables, funciones y clases entre diferentes ficheros. Hoy en día, especialmente si trabajamos con un empaquetador de aplicaciones como Webpack
+
+los imports dinámicos, de forma que podamos importar módulos que se carguen en el momento de la ejecución del programa o cuando nosotros decidamos (por ejemplo, como respuesta a un click).
+
+document.querySelector('button').addEventListener('click', () => {
+  // los imports dinámicos devuelven una Promesa
+  import('./sayHi.js').then(module => {
+    // ahora podemos ejecutar el módulo que hemos cargado
+    module.default('Hola')
+  })
+})
+Los imports dinámicos son útiles también cuando trabajamos con empaquetadores como Webpack o Vite, ya que esto creará unos chunks (fragmentos) que se cargarán fuera del bundle general. ¿El objetivo? Mejorar el rendimiento de la aplicación.
+
+
+
+Operador condicional (ternario)
+Las ternarias son una forma de realizar condiciones sin la necesidad de usar la sintaxis con if. Se podría decir que es una forma de atajo para evitar escribir tanto código.
+
+if (number % 2 === 0) {
+  console.log('Es par')
+} else {
+  console.log('Es impar')
+}
+
+// usando ternaria
+number % 2 === 0 ? console.log('Es par') : console.log('Es impar')
+
+
+Funciones flecha o Arrow Functions
+Las funciones flecha o arrow function fueron añadidas a JavaScript en el estándar ECMAScript 6 (o ES2015). En principio parece que simplemente se trata de una sintaxis alternativa más simple a la hora de crear expresiones de funciones:
+
+const nombreDeLaFuncion = function (param1, param2) {
+  // instrucciones de la función
+}
+
+const nombreDeLaFuncion = (param1, param2) => { // con arrow function
+  // instrucciones de la función
+}

@@ -1,0 +1,10 @@
+npm i -D nodemon
+
+    #in package.json
+"scripts": {
+    "dev": "app",
+    "serve": "nodemon server.js"
+  },
+
+    #In terminal
+npm run serve
