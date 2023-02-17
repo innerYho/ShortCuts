@@ -1,0 +1,20 @@
+
+Proxies
+Reducir la calidad del vídeo para editarlo rápido
+    #soft cut
+k
+
+    #hard cut vídeo
+shift k
+
+    #focus to work
+p
+alt p: delete focus
+
+Group
+ctrl + G
+ctrl + Alt + G Delete Group
+
+Transition
+dejar un hueco en ambos vídeos, se seleccionan ambos y luego
+add transition: cross
