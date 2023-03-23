@@ -1,0 +1,12 @@
+
+    version terminal
+Get-Host
+
+    instalacion de paquetes 
+winget
+
+
+winget search powershell
+
+    Actualización ultima version de powershell
+winget install Microsoft.Powershell
