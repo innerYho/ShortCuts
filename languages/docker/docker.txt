@@ -1,4 +1,9 @@
 
+config
+    docker engine
+change to => "buildkit": false
+Enable Kubernetes
+
 
     #show the actual images
 docker images

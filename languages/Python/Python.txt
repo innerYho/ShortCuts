@@ -1,0 +1,4 @@
+
+
+    installar paquete con permisos
+pip install <package_name> --user
