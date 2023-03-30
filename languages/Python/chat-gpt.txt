@@ -1,0 +1,4 @@
+https://chat.openai.com/auth/login
+
+
+npm init -y
