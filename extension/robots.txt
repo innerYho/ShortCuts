@@ -1,0 +1,29 @@
+Sintaxis del archivo robots.txt
+A continuación, vamos a explicar el conjunto de comandos empleados dentro del archivo robots.txt según las preferencias de optimización.
+
+Así, podrás crear un archivo optimizado para los rastreadores de los motores de búsqueda.
+
+User-agent o agente de usuario
+User-agent -o agente de usuario- es el comando empleado para dar órdenes específicas a un determinado motor de búsqueda.
+
+Por ejemplo, para dar una orden específica al robot de Google (Googlebot), tendrías que incluir el siguiente comando:
+
+User-agent: Googlebot
+
+En caso de que quieras que todos los robots sigan dicha orden, deberás añadir un asterisco. Es decir, que quedaría de la siguiente manera:
+
+User-agent: *
+
+El comando Disallow
+Este comando da una orden de qué parte del contenido no debe rastrear el robot del motor de búsqueda. Para ello, emplearemos el comando disallow de la siguiente manera:
+
+Para bloquear toda la página, añadiremos:
+Disallow: /
+
+Para bloquear un contenido en concreto, añadiremos la URL de una página de tu sitio seguida de la barra inclinada. Por ejemplo:
+Disallow: paginadeejemplo.com/directorio/post-del-blog
+
+También se puede restringir el rastreo de una imagen, e incluso facilitar el rastreo de un determinado contenido.
+
+
+https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt?hl=es&visit_id=638176309791934925-1441296140&rd=1
