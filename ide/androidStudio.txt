@@ -1,0 +1,8 @@
+
+    #Emular en dispositivo fuera del ide de android studio
+file/setting/tools/emulator
+launch in a tool window: false
+
+
+    #Mostar la pantalla de mi cel
+App power mirror

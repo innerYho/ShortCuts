@@ -1,5 +1,8 @@
+no puedes aprender algo que crees que sabes
 
 show dbs
+use local
+use pruebas;
 
 use midudb
 

@@ -2,3 +2,16 @@
 
     installar paquete con permisos
 pip install <package_name> --user
+
+
+    #ModuleNotFoundError
+py -m ensurepip --upgrade
+
+    #Install Jupyter Notebook
+python -m ensurepip
+python -m pip install --upgrade pip 
+
+pip install jupyterlab
+pip install jupyter notebook
+
+jupyter notebook

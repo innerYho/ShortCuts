@@ -1,0 +1,7 @@
+#errors
+
+    iproxy no puede abrir porque no se puede verificar el desarrollador
+carpeta: flutter/bin/cache eliminar toda la carpeta "artifacts" 
+
+    #Mostar la pantalla de mi cel
+App power mirror
