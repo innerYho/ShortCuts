@@ -13,3 +13,18 @@ winget install Microsoft.Powershell
 
     update wsl
 wsl --update
+
+    Chekea el disco
+    sustituye la E: por la letra de la unidad correspondiente a su unidad USB). La operación chkdsk comenzará entonces a reparar la unidad USB dañada.
+chkdsk E: /f
+chkdsk Q: /f /r /x
+
+
+    Particiones de disco
+diskpart
+
+lsitdisk
+
+select disk 2
+
+clean
