@@ -23,6 +23,17 @@ npm init --y
 Create file config ts 
 tsc -- init
 
+Using the update node npm
+https://nodejs.org/en
+npm update -g --location=global
+npm i nvm
+nvm install --lts
+
+    install pnpm
+iwr https://get.pnpm.io/install.ps1 -useb | iex
+
+
+
 Transpilar codigo a js para ejecutarlo
 tsc
 
