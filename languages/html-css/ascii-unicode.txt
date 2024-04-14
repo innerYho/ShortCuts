@@ -1,0 +1,24 @@
+Copyright alt 184  ©   o   alt 0169 ©
+Marca registrada ®. Alt + 0174
+
+Marca comercial ™. Alt + 0153
+Carita feliz alt 02d1 
+Punto centrado  alt 250  ·
+©
+
+copyleft teclado
+.copy-left {
+display: inline-block;
+text-align: right;
+margin: 0px;
+-moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+filter: FlipH;
+-ms-filter: "FlipH";
+}
+
+<span class="copy-left">©</span>
+
+
