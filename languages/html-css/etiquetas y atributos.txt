@@ -1,0 +1,11 @@
+<a
+            href="https://twitch.tv/ibai"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+        >
+            <img src="./twitch-icon.svg" alt="Logo de twitch" />
+        </a>
+noopener => no envía info a través de la url
+noreferrer => no le envía metadatos o permisos de acceso a la pag de destino
+nofollow => no sigas esto ceo Google
+

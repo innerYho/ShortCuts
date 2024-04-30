@@ -20,3 +20,19 @@ function elegir(id) {
         localStorage.setItem('citySession', 2);
     }
 }
+
+
+
+// Cookies:
+// tiempo de expiración
+// tamaño max de 4kbs
+
+// document.cookie = "num=0"
+
+// localStorage
+// tamaño max 10mb
+// nunca expiran
+// localStorage.setItem('keypos', '0')
+// localStorage.getItem('keypos')
+// localStorage.removeItem('keypos')
+// localStorage.clear()

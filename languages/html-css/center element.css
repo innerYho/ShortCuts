@@ -44,3 +44,12 @@ body {
 }
 
 /* https://moderncss.dev/12-modern-css-one-line-upgrades/ */
+
+
+/* ---------------------------minimalist-portfolio>project.astro */
+ul {
+  /* Responsive sin media queries */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}

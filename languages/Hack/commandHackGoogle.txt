@@ -1,4 +1,9 @@
 Google Hacking: Comandos y Operadores Booleanos
+
+https://medium.com/@qaafqasim/40-google-dorks-to-find-bug-bounty-programs-unveiling-the-hidden-site-98e134762886
+google dorks bug bounty
+https://taksec.github.io/google-dorks-bug-bounty/
+
 Comandos principales Google Hacking
 
 A continuación se muestran los comandos principales que podemos utilizar con Google. Hay que tener en cuenta que todos ellos deben ir seguidos (sin espacios) de la consulta que quiere realizarse:

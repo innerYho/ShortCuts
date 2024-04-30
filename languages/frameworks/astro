@@ -1,0 +1,9 @@
+The `astro:i18n` module can not be used without enabling i18n in your Astro config
+modificar el astro.config.mjs
+// https://astro.build/config
+export default defineConfig({
+    i18n: {
+        defaultLocale: 'es',
+        locales: ['es', 'en']
+    }
+});
