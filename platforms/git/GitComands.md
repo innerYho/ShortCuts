@@ -1,4 +1,4 @@
-    # initial git config   
+# initial git config   
 git config --global user.name "Your Name"
     eg: git config --global user.name "innerYho"
 git config --global user.email "youremail@yourdomain.com"
@@ -9,6 +9,10 @@ git config --list
 create a new repository on the command line
 echo "# tutoNode" >> README.md
 echo #'node_modules/' >> .gitignore
+
+
+## Create new repo
+# in vsc push button "Publish in github"
 
 git init
 git add README.md
