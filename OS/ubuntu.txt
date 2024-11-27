@@ -7,3 +7,31 @@ sudo snap remove --purge <package_name>
     fuser 5000/tcp
     fuser -k 5000/tcp
     
+    nmcli device show :Obtener datos de conexión
+
+
+
+
+Nmap
+nmap + ip/puerto
+
+Trata todos los puertos de la red como si estuvieran abiertos
+nmap -Pn -n -v 192.168..
+
+Escanear los puertos filtrados para determinar cuales son los servicios 
+nmap -n -Pn -v -sV -p 80,1234 192.168..
+
+escaneo half open
+envia un paquete sim sin abrir una conexión y espera que le llegue una respuesta
+si recibe una respuesta sim o hk, indica que el puerto esta escuchando.
+si llega una respuesta rst: el puerto no esta escuchando y cierra la conexión.
+nmap -n -sS -v -f 192.168..
+
+nmap -Pn -n -v -sV 192.168..
+
+-f envia paquetes fragmentados y aveces pasa el firewall
+
+nmap -p 80,1234 -f -sN 192.168..
+
+Escanear vulnerabilidades 
+nmap 192.168.20.196/24 --script vuln scanme.nmap.org
