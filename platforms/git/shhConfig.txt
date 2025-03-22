@@ -16,6 +16,8 @@ in win
                 ssh-keygen -t ed25519 -C "your_email@example.com"
                     eg: ssh-keygen -t ed25519 -C "yomorales5@misena.edu.co"
 
+va aquedar almacenada en (/c/Users/User/.ssh/id_ed25519):
+
         if your PC is Lagacy
              go to C:\Users\"nameUser"\.shh
             open Terminal and paste
